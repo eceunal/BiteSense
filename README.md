@@ -8,9 +8,6 @@
 
 BiteSense is an **Android application** designed to provide **instant, offline diagnosis of arthropod bites**—including ticks, mosquitoes, spiders, and more—while offering actionable **first-aid guidance**.
 
-The app runs a **fine-tuned Gemma-3n-2B-it multimodal model entirely on-device**, ensuring **privacy**, **low-latency**, and **accessibility** in **rural or low-connectivity environments**.  
-No cloud servers. No internet required. Your sensitive images never leave your phone.
-
 ---
 
 ## 🌍 Motivation
