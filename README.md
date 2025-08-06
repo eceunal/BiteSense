@@ -38,3 +38,10 @@ Due to repository size constraints, the Gemma 3n model must be obtained separate
 1. Download the model from: https://huggingface.co/google/gemma-3n-E2B-it-litert-preview/tree/main
 2. Place the downloaded file in: `android-app/app/src/main/assets/`
 3. Rename the file to: `gemma-3n-e2b.task`
+
+❗ Please note that, due to the lack of MediaPipe converters that currently do not support Gemma 3n, we were unable to deploy our fine‑tuned model directly onto the mobile application. The MediaPipe conversion pipeline remains nonfunctional for Gemma 3n-models [1]. Instead, we used the base Gemma‑3n‑2B model and implemented a cloud‑based option that enables users to connect to the actual fine‑tuned model hosted remotely.
+As stated above, the backend URL is not embedded within the repository or APK for security. It is excluded from production builds to prevent unauthorized access. The backend URL can be shared upon request, solely for testing and validation of the app’s functionality.
+As part of our future plans, once MediaPipe supports converting and deploying fine‑tuned Gemma 3n models on Android devices, we intend to update our deployment strategy and ship the fully on‑device fine‑tuned model within the BiteSense application.
+ 
+[1] https://github.com/google-ai-edge/mediapipe/issues/6049
+ 
