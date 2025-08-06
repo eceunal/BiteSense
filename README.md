@@ -19,6 +19,13 @@ Early and accurate bite identification is critical, but access to **specialists*
 
 ---
 
+## Dataset
+Base dataset: https://www.kaggle.com/datasets/moonfallidk/bug-bite-images
+Augmented dataset: https://huggingface.co/datasets/eceunal/bug-bite-images-aug_v3
+
+## Model
+https://huggingface.co/eceunal/insectra-fine-tuned
+
 ## Installation
 
 ### APK Download
